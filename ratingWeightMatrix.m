@@ -11,4 +11,4 @@ newR = W;
 newW = R;
 
 k = [10, 50, 100];
-errArrProb2 = runModelAndError(newR,newW,k);
+errArrRatingW = wnmfModelAndError(newR,newW,k);

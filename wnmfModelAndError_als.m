@@ -1,4 +1,4 @@
-function [errMatProb, U, V] = runModelAndError_als(R,W,k,lam)
+function [errMatProb, U, V] = wnmfModelAndError_als(R,W,k,lam)
 
 errMatProb = zeros(length(k),length(lam));
 for j = 1:length(lam)
